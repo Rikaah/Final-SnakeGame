@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+}
+.snek {
+    margin-left: 48%;
+    display: block;
+} 
+.start {
+    margin-top: 10px;
+    margin-left: 48%;
+}
+.score {
+    margin-left: 45%;
+}
+.grid {
+    margin-left: 45%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: red;
+}
